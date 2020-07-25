@@ -1,8 +1,74 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
+} */
+/* STYLE GUIDE: 
+body {
+    font-family: 'Halant', serif;
+    font-weight: 400;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+COLORS:
+#DD7564: RED
+#1FA5A6: DARK BLUE
+#B2DEDD: LIGHT BLUE
+#F0EDE6: GREY
+*/
 body {
-    background-color: deepskyblue;
+    background-color: #DD7564;
+    font-family: 'Halant', serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+    padding: 20px 0px;
+    letter-spacing: 1px;
+    background-color: #B2DEDD;
+    text-align: center;
+}
+
+img {
+    width: 15rem;
+}
+
+#projectsPage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projectsPage {
+    border: 2px solid #1FA5A6;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    background-color: #F0EDE6;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+p {
+    font-family: 'Halant', serif;
+    font-weight: 400;
 }
