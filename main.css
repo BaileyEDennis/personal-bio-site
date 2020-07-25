@@ -1,45 +1,69 @@
 /* * {
     margin: 0;
     padding: 0;
-} */
+}   */
 /* STYLE GUIDE: 
-body {
-    font-family: 'Halant', serif;
-    font-weight: 400;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Satisfy', cursive;
-    font-weight: 400;
-}
-
-.button {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Paytone+One&display=swap')
+font-family: 'Paytone One', sans-serif;
+font-family: 'Cutive Mono', monospace;
+Headings in paytone, paragraphs and buttons in cutive mono, contrasted (black w/white text)
+        
 
 COLORS:
-#DD7564: RED
-#1FA5A6: DARK BLUE
-#B2DEDD: LIGHT BLUE
-#F0EDE6: GREY
+#EAE7DC: Grey, background
+#D8C3A5: Brown,?
+#8E8D8A: Blue grey, text
+#E98074: Pink, 
+#E85A4F: Red
 */
 body {
-    background-color: #DD7564;
-    font-family: 'Halant', serif;
+    background-color: #EAE7DC;
+    font-family: 'Cutive Mono', monospace;
     font-weight: 400;
+}
+
+nav li{
+    display: block;
+    padding: 0 5rem 2rem 5rem;
+    letter-spacing: .5rem;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    /* border: 5px solid green; */
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #E98074;
+}
+
+#navLinks {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    /* border: 5px solid red; */
 }
 
 h1 {
-    font-family: 'Satisfy', cursive;
+    margin-top: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
     font-weight: 400;
-    padding: 20px 0px;
+    font-size: 4rem;
+    width: 100%;
+    top: 0;
     letter-spacing: 1px;
-    background-color: #B2DEDD;
+    color: #8E8D8A;
     text-align: center;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -53,22 +77,25 @@ img {
 }
 
 .projectsPage {
-    border: 2px solid #1FA5A6;
+    border: 2px solid #E85A4F;
+    border-radius: 10px;
     width: 300px;
     margin: 20px;
     text-align: center;
-    background-color: #F0EDE6;
+    background-color: #D8C3A5;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
 
 p {
-    font-family: 'Halant', serif;
+    font-family: 'Cutive Mono', monospace;
     font-weight: 400;
+    text-align: justify;
+    padding: 1rem;
 }
