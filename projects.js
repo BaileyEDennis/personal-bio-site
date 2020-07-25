@@ -37,14 +37,16 @@ const createProjectCards = () => {
     let domString = '';
 
     for (let i = 0; i < projects.length; i++) {
-        domString += `<div class="projectsPage">`;
-        domString += `<h2>${projects[i].title}</h2>`;
-        domString += `<img src=${projects[i].screenshot} alt="screenshot"/>`;
-        domString += `<p>${projects[i].description}</p>`;
-        domString += `<p>${projects[i].technologiesUsed}</p>`;
-        domString += `<a>${projects[i].url}</a>`;
-        domString += `<a>${projects[i].githubUrl}</a>`;
-        domString += `</div>`;
+        if (projects[i].available === true) {
+            domString += `<div class="projectsPage">`;
+            domString += `<h2>${projects[i].title}</h2>`;
+            domString += `<img src=${projects[i].screenshot} alt="screenshot"/>`;
+            domString += `<p>${projects[i].description}</p>`;
+            domString += `<p>${projects[i].technologiesUsed}</p>`;
+            domString += `<a>${projects[i].url}</a>`;
+            domString += `<a>${projects[i].githubUrl}</a>`;
+            domString += `</div>`;
+        }
     }
 
     printToDom('projectsPage', domString);
