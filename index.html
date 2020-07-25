@@ -1,17 +1,55 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Bio Site!</title>
-    <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>Bailey's Personal Bio</title>
 </head>
+
 <body>
-    
-    <div class="all-cards">
-        <div id="pets" class="pets"></div>
-    </div>
-    
-    <script src="main.js"></script>
+  <!-- Navigation -->
+  <nav>
+    <!-- TODO: Insert some sort of H1-H6 with your name here -->
+    <h1>Bailey Dennis</h1>
+    <ul id="navLinks">
+      <li><a id="navToBio">Bio</a></li>
+      <li><a id="navToTechnologies">Technologies</a></li>
+      <li><a id="navToProjects">Projects</a></li>
+    </ul>
+  </nav>
+  <!-- End Navigation -->
+
+  <!-- Primary View -->
+  <div class="fullPage" id="bioPage">
+    <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
+    <p>Originally Majoring in Classical Music Performance at MTSU, Bailey has always had a passion for technology. Since childhood Bailey has built her own PC's, Learned the Linux(tm) operating system, and pursued classes in coding while in High School and 
+        University. Since graduating MTSU (B.S. Integrated Studies) and breifly working as a tech support agent for Verizon, she decided to continue her education through Nashville Software School to get her into the web development side of the tech industry. What originally began
+        as a hobby and interest in childhood has been a driving force in her life and a consistent theme. Bailey enjoys the puzzle solving challenges programming brings with it, and enjoys styling web pages to look aestetic. She especially follows a design philosophy
+        as originally thought out by designer Dieter Rams, who has also had influence on Mid Century Modern architecture, Modern product designs, and especially Apple Computers, inc.</p>
+  </div>
+  <div class="fullPage" id="technologiesPage">
+    <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
+    <ul>
+        <li>Visual Studio Code</li>
+        <li>BASH terminal</li>
+        <li>HTML / CSS / JavaScript</li>
+        <li>Git and Github</li>
+        <li>Slack and Zoom communication</li>
+    </ul>
+  </div>
+  <div class="fullPage" id="projectsPage"></div>
+  <!-- End Primary View -->
+
+  <!-- Footer -->
+  <footer class="page-footer">
+    <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
+    <a href="bailey.elise.dennis@gmail.com">Email</a>
+    <a href="#">LinkedIn</a>
+    <a href="#">Twitter</a>
+    <a href="https://github.com/BaileyEDennis">Github</a>
+  </footer>
+  <!-- End Footer -->
+  <script src="projects.js"></script>
 </body>
 </html>
