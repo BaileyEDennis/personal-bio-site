@@ -39,12 +39,12 @@ h1 {
   display: inline-block;
 }
 
-#navLinks {
+/* #navLinks {
   display: flex;
   justify-content: flex-end;
   width: 80%;
   flex-direction: row;
-}
+} */
 
 nav li {
   display: inline-block;
@@ -71,6 +71,13 @@ nav li a {
 nav li a:hover {
   color: ivory;
   border-bottom: 3px solid fuchsia;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  flex-direction: row;
 }
 
 hr {
