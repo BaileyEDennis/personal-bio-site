@@ -8,7 +8,7 @@ This is my personal Bio page. It is always under construction and demonstrates n
 
 ## Technology Used:
 
-HTML
-CSS
-Javascript
-HTTP server
+- HTML
+- CSS
+- Javascript
+- HTTP server
