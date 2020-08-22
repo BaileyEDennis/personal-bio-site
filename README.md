@@ -1,6 +1,6 @@
 # personal-bio-site
 
-![image](./images/siteimage.png)
+![image](./img/siteimage.png)
 
 This is my personal Bio page. It is always under construction and demonstrates new techniques I learn in class. I am adding as I go!
 
